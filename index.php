@@ -18,8 +18,8 @@
         <h1 class="text-center my-3">CRUD Data Mahasiswa</h1>
         <div class="mb-3 d-flex justify-content-end">
             <a href="create.php" class="btn btn-primary me-3">Tambah</a>
-            <a href="create.php" class="text-white btn btn-warning me-3">Edit</a>
-            <a href="create.php" class="btn btn-danger">Hapus</a>
+            <a href="update.php" class="text-white btn btn-warning me-3">Edit</a>
+            <a href="delete.php" class="btn btn-danger">Hapus</a>
         </div>
         <table class="table table-bordered text-center">
             <thead>
