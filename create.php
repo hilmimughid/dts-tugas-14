@@ -30,10 +30,18 @@
             <input type="date" class="form-control" name="tanggal_lahir" required><br>
 
             <label for="jurusan" class="form-label">Jurusan:</label>
-            <input type="text" class="form-control" name="jurusan" placeholder="Masukkan Jurusan" required><br>
+            <select class="form-select" aria-label="Default select example" required>
+                <option selected value="">Pilih Jurusan</option>
+                <option value="Teknologi Informasi">Teknologi Informasi</option>
+            </select><br>
 
             <label for="program_studi" class="form-label">Program Studi:</label>
-            <input type="text" class="form-control" name="program_studi" placeholder="Masukkan Program Studi" required><br>
+            <select class="form-select" aria-label="Default select example" required>
+                <option selected value="">Pilih Program Studi</option>
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Sistem Informasi">Sistem Informasi</option>
+                <option value="Teknik Komputer">Teknik Komputer</option>
+            </select><br>
 
             <label for="ipk" class="form-label">IPK:</label>
             <input type="number" class="form-control" name="ipk" placeholder="Masukkan IPK" required><br>
